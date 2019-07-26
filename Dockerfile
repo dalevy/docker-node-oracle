@@ -1,5 +1,5 @@
 # INSTALL UBUNTU
-FROM node:10-stretch
+FROM node:10.16-stretch
 
 #INSTALL LIBAIO1 & UNZIP (NEEDED FOR STRONG-ORACLE)
 RUN apt-get update \
